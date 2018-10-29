@@ -1,0 +1,36 @@
+.b1{
+    background-image: url(https://www.gestaoerh.com.br/conteudo/publicacoes/B7d5f3946af9d1617bec63ade6980e07ff092315.png);
+    background-repeat: no-repeat;
+    background-position: center 10px;    
+}
+.text1,.text2,.text3,.text4{
+    width:425px;
+    height:180px;
+    border: 2px solid #002d55f8;
+    text-align: center;
+    font-size: 25px;
+    overflow: scroll;
+    position: relative;
+    left: 393px;
+    margin: -549px ;   
+}
+.div1{
+    width: 580px;
+    height: 204px;
+    border: 5px solid #002d55f8;
+    position: relative;
+    left: 400px;
+    margin: 350px -28px;
+}
+.div2{
+    float:left;
+    margin: 10px;
+    border: 2px solid #002d55f8;
+    width: 125px;
+    height: 180px;
+    text-align: center;
+    color: #000000;    
+}
+#mostra_aba1:hover,#mostra_aba2:hover,#mostra_aba3:hover,#mostra_aba4:hover{
+    background:#53a7ea;
+}

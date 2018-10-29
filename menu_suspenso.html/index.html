@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+<script>    
+    function mostrar_abas(obj) {
+
+      document.getElementById('div_aba1').style.display="none";
+      document.getElementById('div_aba2').style.display="none";
+      document.getElementById('div_aba3').style.display="none";
+      document.getElementById('div_aba4').style.display="none";
+
+   switch (obj.id) {
+      case 'mostra_aba1':
+      document.getElementById('div_aba1').style.display="block";
+      break
+      case 'mostra_aba2':
+      document.getElementById('div_aba2').style.display="block";
+      break
+      case 'mostra_aba3':
+      document.getElementById('div_aba3').style.display="block";
+      break
+      case 'mostra_aba4':
+      document.getElementById('div_aba4').style.display="block";
+      break
+   }
+}
+
+</script>
+<body class="b1">
+    <div class="div1">
+    <div class="div2">
+        <h3  onclick="mostrar_abas(this);" id="mostra_aba1" >Mostra Aba 1</h3> 
+        <h3  onclick="mostrar_abas(this);" id="mostra_aba2" >Mostra Aba 2</h3> 
+        <h3  onclick="mostrar_abas(this);" id="mostra_aba3" >Mostra Aba 3</h3> 
+        <h3  onclick="mostrar_abas(this);" id="mostra_aba4" >Mostra Aba 4</h3>
+    </div>
+    </div>
+        <!-- abas -->
+    
+        <div id="div_aba1" style="display:block;">
+           <p style="text-align: center" class="text1">Cow and Chicken (no Brasil: A Vaca e o Frango e em Portugal: Cow e Chicken) é uma série de desenho animado exibido no Brasil pelo Cartoon Network e pela Rede Record através do Desenho Mania e em Portugal pela TVI através do Batatoon, criada por David Feiss em 15 de dezembro de 1995 com o lançamento de um episódio piloto.</p>
+            </div>
+            <div id="div_aba2" style="display:none;">
+                <p style="text-align: center" class="text2"> Conteúdo da aba 2 </p>
+            </div>
+            <div id="div_aba3" style="display:none;">
+                <p style="text-align: center" class="text3"> Conteúdo da aba 3 </p>
+            </div>
+            <div id="div_aba4" style="display:none;">
+                <p style="text-align: center" class="text4"> Conteúdo da aba 4 </p>
+        </div>
+        <img src="impacta_logo-300x93.png" alt="">
+</body>
+</html>
